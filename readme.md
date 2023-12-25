@@ -12,3 +12,11 @@ This is mostly for usage as a reference sheet of some sorts, but may eventually 
 * documentation
 * code
 * and everything
+
+## Techniques:
+| Technique | Description |
+|-----------|-------------|
+| False Teleportation | Simulates and mimics teleportation. (Known issue: Flags need to be given to players after each "teleport"). |
+| False Countdown | Everything the actual `countdown` timer can do, but without forced game overs. |
+| Spawn Team Flag |  Spawns a team flag without players on that team. (Team flag disappears upon any player join or leave.) |
+| Freeze Players | Causes all players to `freeze` or resume on demand. |
